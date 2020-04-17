@@ -18,3 +18,9 @@ TextField1	VARCHAR(100),
 TextField2		VARCHAR(100),
 TextField3		VARCHAR(100))
 
+INSERT INTO SampleTable
+(TextField1, TextField2, TextField3)
+VALUES
+('one', 'one', 'one'),
+('one', 'one', 'one'),
+('two', 'two', 'two');
